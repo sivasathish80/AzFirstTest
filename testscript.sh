@@ -1,13 +1,22 @@
 #!/bin/sh
 
+echo "List Files"
+ls -ltr
+
 echo `hostname`
+
 echo `pwd`
+
 echo "My Name is " $1
+
 echo "GIT Status"
 git status
 
 echo "GIT Checkout"
 git checkout
+
+echo "Check the branch"
+git branch -v
 
 echo "GIT Checkout to Master"
 git checkout master
