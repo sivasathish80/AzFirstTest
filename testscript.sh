@@ -18,3 +18,10 @@ git branch -v
 echo "Pull Files from master"
 git pull origin master
 
+echo "list files"
+ls -ltr
+
+echo "Execute initiateBuild script"
+./initiateBuild.sh
+
+
