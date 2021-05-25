@@ -24,8 +24,10 @@ git checkout master
 echo "Check the branch"
 git branch -v
 
-echo "Pull Files from master"
-git pull origin master
+echo "List Files in master branch"
+
+#echo "Pull Files from master"
+#git pull origin master
 
 echo "list files"
 ls -ltr
@@ -33,7 +35,7 @@ ls -ltr
 echo "Grant execute permission for initiateBuild script"
 chmod 755 initiateBuild.sh
 
-echo "Execute initiateBuild script"
-./initiateBuild.sh
+#echo "Execute initiateBuild script"
+#./initiateBuild.sh
 
 
