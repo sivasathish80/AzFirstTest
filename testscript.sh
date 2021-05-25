@@ -18,13 +18,13 @@ git checkout
 echo "Check the branch"
 git branch -v
 
-echo "GIT Checkout to Master"
-git checkout master
+echo "GIT Checkout to $1"
+git checkout $1
 
 echo "Check the branch"
 git branch -v
 
-echo "List Files in master branch"
+echo "List Files in $1 branch"
 
 #echo "Pull Files from master"
 #git pull origin master
